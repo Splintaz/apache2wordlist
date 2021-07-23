@@ -2,6 +2,11 @@
 /etc/apache2/envvars
 /etc/apache2/magic
 /etc/apache2/ports.conf
+/etc/apache2/sites-available/000-default.conf
+/etc/apache2/sites-available/default-ssl.conf
+/etc/apache2/sites-available/httpd-xplico.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/098-xplico.conf
 /etc/apache2/conf-available/charset.conf
 /etc/apache2/conf-available/javascript-common.conf
 /etc/apache2/conf-available/localized-error-pages.conf
@@ -193,8 +198,3 @@
 /etc/apache2/mods-enabled/setenvif.load
 /etc/apache2/mods-enabled/status.conf
 /etc/apache2/mods-enabled/status.load
-/etc/apache2/sites-available/000-default.conf
-/etc/apache2/sites-available/default-ssl.conf
-/etc/apache2/sites-available/httpd-xplico.conf
-/etc/apache2/sites-enabled/000-default.conf
-/etc/apache2/sites-enabled/098-xplico.conf

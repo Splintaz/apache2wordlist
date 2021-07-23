@@ -3,6 +3,14 @@ number_2 = 0
 files = ["conf-available", "conf-enabled", "mods-available", "mods-enabled", "sites-available", "sites-enabled"]
 while True:
 	try:
+		with open("extra") as extra:
+					lines = extra.readlines()
+					print(lines[number])
+					number += 1
+	except:
+		break
+while True:
+	try:
 			with open(files[number_2]) as documents:
 				lines = documents.readlines()
 				apache2 = "/etc/apache2/"

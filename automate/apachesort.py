@@ -7,7 +7,7 @@ while True:
 					lines = extra.readlines()
 					print(lines[number])
 					number += 1
-	except:
+	except(IndexError)
 		break
 while True:
 	try:

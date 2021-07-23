@@ -1,0 +1,4 @@
+/etc/apache2/apache2.conf
+/etc/apache2/envvars
+/etc/apache2/magic
+/etc/apache2/ports.conf
